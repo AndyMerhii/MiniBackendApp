@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniBackendApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+023787f4c337904cdf1574c5740768de722fde3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniBackendApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniBackendApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

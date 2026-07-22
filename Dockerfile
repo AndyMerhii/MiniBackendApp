@@ -15,6 +15,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-# Expose port 8080 (the default port for .NET containers)
-EXPOSE 8080
+# Expose port 3030 and FORCE .NET to use it
+EXPOSE 3030
+ENV ASPNETCORE_URLS=http://+:3030
+
 ENTRYPOINT ["dotnet", "MiniBackendApp.dll"]
